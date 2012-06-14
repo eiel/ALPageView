@@ -6,7 +6,7 @@
 
 @interface ALPageView : UIView <UIScrollViewDelegate>
 
-@property (weak,nonatomic) id<ALPageViewDelegate> delegate;
+@property (assign, nonatomic) id<ALPageViewDelegate> delegate;
 @property (assign, nonatomic) NSInteger currentPage;
 
 @end
